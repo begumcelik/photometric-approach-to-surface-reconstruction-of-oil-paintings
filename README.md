@@ -103,6 +103,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 - Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture for stationary materials. <i>ACM Trans. Graph.</i> 34, 4, Article 110 (August 2015), 13 pages. DOI:https://doi.org/10.1145/2766967
 
+
 # Yağlı Boya Resimlerin Fotometrik Yaklaşım ile Yüzey Rekonstrüksiyonu 
 
 Yağlı boya kullanılarak üretilmiş sanat eserlerinde malzemenin kendi yapısının olanak sağladığı farklı uygulama biçimlerinin, sanat eserinin orijinal görünümünde nasıl etkili rol oynadığı birçok sanat eleştirmeni ve tarihçisi tarafından üzerine çalışılan bir konu olmuştur. Bu doğrultuda sanat eserlerinin orijinaline en uygun şekilde görüntülenebilmesi için, fotoğrafın ötesinde, yağlı boya eserlerin doku ve parlaklık gibi resmin algılanışında etkili olan diğer özellikleri de yansıtılarak gerçeğe uygun bir reprodüksiyon üretilmesi amaçlanmaktadır.
