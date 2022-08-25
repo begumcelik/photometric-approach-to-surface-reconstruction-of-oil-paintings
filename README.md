@@ -19,15 +19,15 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      - First photo should be taken under constant illumination conditions, but distinct highlight and shadows should be avoided in this guide photo. 
      - Second photo should be taken using flash light, and the circular highligt due to the flash lighting should be close to the image center.
 
-2. Place the input photos in a single directory file, and named them as 
+2. Place the input images into the same directory, and name them as 
      - guide.png or guide.jpg or guide.tiff 
      - flash.png or flash.jpg or flash.tiff
      
-3.  The directory file which consists images should be encapsulated by another file. To clarify, let's call this file _data_ . Inside of the _data_ file there should be the main directory. (e.g. data/painting)
+3.  The directory which consists images should be encapsulated by another file. To clarify, let's call this file _data_ . Inside of the _data_ file there should be the main directory. (e.g. data/painting)
 
-4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB (only MATLAB source code, not the renderer) by adding the paths of source code file. 
+4. After downloading [source code](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/code_and_data.html) of Two-Shot svBRDF capture model, open the source code in MATLAB (only MATLAB source code, not the renderer) by adding the paths of source code file. 
 
-5. In the main code file called SOLVE_ALL, replace the data_path with path of your _data_ file. Then, add your directory file name to the dataset list called files. (e.g. painting) 
+5. In the main code file called SOLVE_ALL, replace the data_path with path of your _data_ file. Then, add your main directory name to the dataset list called files. (e.g. painting) 
 
 6. Required add-ons for the succesful execution of the model in MATLAB are listed below.
      - Parallel Computing Toolbox
